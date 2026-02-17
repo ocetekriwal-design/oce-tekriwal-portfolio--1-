@@ -35,7 +35,7 @@ const ProjectDetailView: React.FC = () => {
         {/* Header Section */}
         <div className="flex flex-col mb-24">
           <div className="flex items-center gap-4 mb-8">
-            <PixelIcon type="fire" className="animate-pulse" size={56} />
+            <PixelIcon type="eye" className="animate-pulse" size={56} />
             <div className="flex flex-col">
               <span className="text-[#FF007F] text-xl tracking-[0.4em] uppercase">CLASSIFIED DATA</span>
               <span className="text-white opacity-50 text-sm font-grotesk tracking-widest uppercase">ST: SEM_II // SEC: F</span>
@@ -184,7 +184,7 @@ const ProjectDetailView: React.FC = () => {
              [ TERMINATE_SESSION ]
            </button>
            <div className="flex gap-4">
-              <PixelIcon type="fire" size={32} />
+              <PixelIcon type="crosshair" size={32} />
               <PixelIcon type="heart" size={32} />
               <PixelIcon type="bolt" size={32} />
            </div>
@@ -215,7 +215,7 @@ const PortfolioMain: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center w-full z-10">
           <div className="lg:col-span-8 flex flex-col justify-center">
             <div className="flex items-center gap-4 mb-10">
-              <PixelIcon type="fire" className="animate-pulse" size={48} />
+              <PixelIcon type="eye" className="animate-pulse" size={48} />
               <span className="text-[#FF007F] text-xl md:text-3xl tracking-[0.3em] font-pixel uppercase">
                 SYSTEMS_INIT: ACTIVE
               </span>
@@ -253,7 +253,7 @@ const PortfolioMain: React.FC = () => {
              
              <div className="relative">
                 <PixelIcon type="globe" className="text-white/10 animate-spin [animation-duration:20s]" size={320} />
-                <PixelIcon type="bolt" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#FF007F] animate-pulse" size={120} />
+                <PixelIcon type="star" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#FF007F] animate-pulse" size={120} />
              </div>
           </div>
         </div>
@@ -378,7 +378,7 @@ const PortfolioMain: React.FC = () => {
       <Section id="contact" className="justify-center items-center overflow-hidden">
         <div className="relative z-10 w-full max-w-4xl px-4 mx-auto">
           <div className="mb-8 flex justify-center">
-            <PixelIcon type="fire" size={120} className="animate-pulse" />
+            <PixelIcon type="heart" size={120} className="animate-pulse" />
           </div>
           
           <h2 className="text-[10vw] font-pixel leading-none uppercase text-white mb-4 text-center">
@@ -463,7 +463,7 @@ const PortfolioMain: React.FC = () => {
         className="fixed top-0 left-0 w-8 h-8 pointer-events-none z-[9999] transition-transform duration-75 ease-out hidden md:flex items-center justify-center text-[#FF007F]"
         style={{ transform: `translate(${mousePos.x - 16}px, ${mousePos.y - 16}px)` }}
       >
-        <PixelIcon type="smile" size={32} />
+        <PixelIcon type="crosshair" size={32} />
       </div>
     </div>
   );
