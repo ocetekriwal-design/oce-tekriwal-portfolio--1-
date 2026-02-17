@@ -360,7 +360,7 @@ const PortfolioMain: React.FC = () => {
              <div className="bg-black p-8 flex flex-col gap-8">
                 <div className="aspect-[4/5] overflow-hidden bg-neutral-900 border border-[#FF007F]">
                   <img 
-                    src="file:///C:/Users/ocete/Downloads/WhatsApp%20Image%202026-02-10%20at%208.15.39%20PM.jpeg" 
+                    src="/image1.jpeg" 
                     className="w-full h-full object-cover contrast-150 grayscale mix-blend-screen"
                     alt="Creative Portrait Placeholder"
                   />
